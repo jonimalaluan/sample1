@@ -39,7 +39,7 @@ export default class SearchExampleStandard extends Component {
 
     return (
       <Grid>
-        <Grid.Column width={6}>
+        <Grid.Column width={10}>
           <Search
             loading={isLoading}
             onResultSelect={this.handleResultSelect}
@@ -51,7 +51,7 @@ export default class SearchExampleStandard extends Component {
             {...this.props}
           />
         </Grid.Column>
-        {/* <Grid.Column width={10}>
+        {/* <Grid.Column width={15}>
           <Segment>
             <Header>State</Header>
             <pre style={{ overflowX: "auto" }}>
